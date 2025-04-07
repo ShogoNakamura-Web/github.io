@@ -1,0 +1,106 @@
+/***********************************************/
+/* 3col_leftNav.css                             */
+/* Use with template 3col_leftNav.html          */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body{
+	font-family: Arial,sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+	color: #666;
+	line-height: 150%;	
+	margin: 5px;
+	padding: 0px;
+	width: 420x;
+}
+
+a{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:link {
+	color: #0033CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #3366ff;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+a:active {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+
+h1{
+ font-family: Verdana,Arial,sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 125%;
+ color: #ffffff;
+ margin: 4px;
+ padding: 4px;
+}
+
+h2{
+ font-family: Arial,sans-serif,"‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 120%;
+ color: #33c;
+ margin: 0px;
+ padding: 10px;
+ font-weight:bold;
+}
+
+h3{
+ font-family: Arial,sans-serif "‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 110%;
+ color: #099;
+ margin: 10px;
+ padding: 0px 0px 0px 5px;
+}
+
+h4{
+ font-family: Arial,sans-serif."‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 110%;
+ color: #93c;
+ margin: 10px;
+ padding: 4px 0px 0px 5px;
+}
+
+h5{
+ font-family: Arial,sans-serif."‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 110%;
+ color: #334d55;
+ margin: 0px;
+ padding: 0px;
+}
+
+
+#titleBar{
+	float: left;
+    width: 595px;
+	height:35px;
+	background-color:#6699ff;	
+}
+
+
+
+#frame{
+    width: 400px;
+    height:auto;
+}
+
+
+/************** .caption styles *****************/
+
+.caption{
+	padding: 2px 0px 8px 0px;
+	font-size: 90%;
+	font-family:"‚l‚r ‚oƒSƒVƒbƒN", Osaka;
+	color: #999;
+}
