@@ -1,0 +1,1113 @@
+/***********************************************/
+/* basic.css                             */
+/***********************************************/
+
+body{
+	color: #000;
+	line-height: 140%;	
+	margin: 5px;
+	margin: 0 0 0 10px;
+	padding: 3px 0px 5px 0px;
+	background-image: url(../img/back_all.gif);
+	font-family:Verdana,"ÉÅÉCÉäÉI","Hiragino Kaku Gothic Pro W3","ÉqÉâÉMÉmäpÉS Pro W3",Osaka,"MS P Gothc w3","Ms P ÉSÉVÉbÉN",sans-serif;
+	font-family:Verdana,"ÉÅÉCÉäÉI","MS P Gothc w3","Ms P ÉSÉVÉbÉN",sans-serif;
+	text-align: left; 
+    overflow-y: scloll;
+    }
+    
+
+a{
+    color: #006699;
+	text-decoration: none;
+}
+
+a:link {
+	color: #0033cc;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333366;
+	text-decoration: none;
+}
+
+a:hover {
+    color:#cc0044;
+  text-decoration: none;
+}
+a:active {
+  color: #cc0044;
+ 	text-decoration: none;
+}
+
+
+
+h1{
+ font-family: sans-serif,"Hiragino Kaku Gothic Pro w3","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 120%;
+ color: #fff;
+ margin: 4px;
+ padding: 4px;
+ vertical-align: middle;
+}
+
+h2{
+ font-family: sans-serif, "Hiragino Kaku Gothic Pro w3","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 107%;
+ color: #610;
+ color: #903;
+ margin: 3px 0 8px 0;
+ padding: 3px 0px 2px 0px;
+ border-top: solid 1px #cca299;
+ border-top: solid 1px #903;
+ border-bottom: dotted 1px #903;
+ text-indent: 0.3em;
+  vertical-align: middle;
+}
+
+h3{
+ font-family: sans-serif,"Hiragino Kaku Gothic Pro w3","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 110%;
+ color: #333b66;
+ margin: 5px 0 10px 0;
+ padding: 6px 0px 5px 9px;
+ font-weight:bold;
+ background-color:#cdf;
+ background-color: #dcdff0;
+}
+
+
+h4{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro, "ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 110%;
+ font-weight:100;
+ color: #991900;
+ margin: 4px;
+ padding: 11px 13px 11px 13px;
+ background-color:#ffd5cc;
+}
+
+h5{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 105%;
+ color: #399;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #399;
+ border-left-width: 5px;
+ border-left-style: solid;
+}
+
+h5.c66{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #c66;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #c66;
+ border-left-width: 5px;
+ border-left-style: solid;
+}
+
+
+h6{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #6600CC;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #60c;
+ border-left-width: 5px;
+ border-left-style: solid;
+}
+
+h7{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #F60;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #F60;
+ border-left-width: 5px;
+ border-left-style: solid;
+}
+
+h5 span{
+background-color:#CCFFCC;
+padding: 3px;
+}
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+.date{
+    color:#990033;
+    font-size:small;
+	font-size:medium;
+	font-weight:100;
+}
+
+
+.rank-1{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #399;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #399;
+ border-left-width: 5px;
+ border-left-style: solid;
+ border-bottom: 1px #399 dotted;
+ font-weight: bold;
+}
+
+.rank-2{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #6600CC;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #60c;
+ border-left-width: 5px;
+ border-left-style: solid;
+ border-bottom: 1px #6600cc dotted;
+ font-weight: bold;
+}
+
+.rank-3{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #F60;
+ margin: 8px 0 0 2px;
+ padding: 0px 0px 0px 4px;
+ border-left-color: #F60;
+ border-left-width: 5px;
+ border-left-style: solid;
+ border-bottom: 1px #ff6600 dotted;
+ font-weight: bold;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	padding: 6px 0px 0px 0px;
+	width: 780px;
+    float:inherit;
+}
+
+#navBar{
+	float: left;
+	width: 170px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+    font-size:12px;
+}
+
+.nav-title{
+ font-family: sans-serif,"Hiragino Kaku Gothic Pro w3","ÉqÉâÉMÉmäpÉS Pro W3","ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 130%;
+ color: #00c;
+ margin: 0px;
+ padding: 7px 0px 5px 9px;
+ font-weight:bold;
+ background-color:#cdf;
+}
+
+
+
+#content{
+	float: left;
+    width: 595px;
+	list-style-image:url(file:///Macintosh%20HD/Users/nakamuramasumi/Desktop/img/tri_blue.gif);
+}
+
+#titleBar-top{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-image:url(../img/hotnews.jpg);	
+}
+
+#titleBar-topics{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-image:url(../img/title-topics.gif);	
+}
+
+#titleBar-sche{
+	float: left;
+    width: 595px;
+	height: 34px;
+	background-image:url(../img/title-sche.gif);	
+}
+
+#titleBar-history{
+	float: left;
+    width: 595px;
+	height: 34px;
+	background-image:url(../img/title-history.gif);	
+}
+
+#titleBar-theme{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-image:url(../img/title-theme.gif);	
+}
+
+#titleBar-member{
+	float: left;
+    width: 595px;
+	height: 34px;
+	background-image:url(../img/title-member.jpg);	
+}
+
+#titleBar-link{
+	float: left;
+    width: 595px;
+	height: 34px;
+	background-image:url(../img/title-link.gif);	
+}
+
+#titleBar-map{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-image:url(../img/title-map.gif);	
+}
+
+#titleBar-record{
+	float: left;
+    width: 595px;
+	height: 33px;
+	background-image:url(../img/title-record.jpg);	
+}
+
+#titleBar-blue{
+	float: left;
+    width: 595px;
+	height: 34px;
+	background-color:#3359cc;	
+}
+
+#titleBar-tea{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#693;	
+}
+
+#titleBar-sky{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#69f;	
+}
+
+#titleBar-sche{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#3cc;	
+}
+
+#titleBar-purple{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#639;	
+}
+
+#titleBar-orange{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#f73;	
+}
+
+
+#titleBar-rose{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#cc3359;	
+}
+
+#titleBar-mossgreen{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#cc3;	
+}
+
+#titleBar-bluegray{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#3380cc;	
+}
+
+#titleBar-map{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#cc5933;	
+}
+
+
+#titleBar-sunflower{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#ffbf00;
+  background-color:#ffbf00;	
+}
+
+#titleBar-green{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#493;	
+}
+
+#titleBar-award{
+	float: left;
+    width: 595px;
+	height:34px;
+	background-color:#f66;	
+}
+
+#frame{
+    width: 787px;
+    height:auto;
+    float: left;
+}
+
+.picture-box-l{
+float:left;
+}
+
+.picture-box-r{
+float:right;
+}	
+	
+
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+.siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+margin:0;
+padding: 0px 0px 3px 2px;
+color: #999;
+white-space:nowrap;
+font-size: 12px;
+width: 770px;
+}
+
+#globalNav img{
+ display: block;
+ margin-bottom: 2px;
+}
+
+#globalNav a:link {
+	font-size: 100%;
+	padding: 2px 5px 0 5px;
+	margin: 0;
+  color:#0033cc;
+  color:#333;
+}
+
+#globalNav a:visited {
+	font-size: 100%;
+	padding: 2px 5px 0 5px;
+	margin: 0;
+  color:#333;
+}
+#globalNav a:hover {
+	font-size: 100%;
+	padding: 2px 5px 0 5px;
+	margin: 0;
+  color:#00F;
+
+}
+
+#globalNav a:active {
+	font-size: 100%;
+	padding: 2px 5px 0 5px;
+	margin: 0;
+  color:#00F;
+}
+
+
+#footer {
+margin:10px 0 0 0;
+padding: 0px 0px 3px 2px;
+color: #999;
+white-space:nowrap;
+font-size: 12px;
+}
+
+#footer img{
+display: block;
+margin: 0;
+}
+
+/*************** #pageName styles **************/
+
+#pageName{
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/************* #breadCrumb styles *************/
+
+#breadCrumb{
+    width: 767px;
+	padding: 2px 0px 0px 0px;
+	height: 10px;
+	background-color:#cccccc
+}
+
+/************** .map styles ***************/
+
+.map{
+	padding: 25px 0px 15px 50px;
+	font-size: 100%;
+}
+
+/************** .intro styles ***************/
+
+.intro{
+	padding: 20px 10px 20px 30px;
+	font-size: 100%;
+}
+
+.feature img{
+	float: left;
+	padding: 20px 0px 20px 10px;
+}
+
+
+/************** .feature styles ***************/
+
+.feature{
+	padding: 20px 0px 0px 12px;
+	font-size: 100%;
+}
+
+.feature h3{
+	padding: 30px 0px 5px 0px;
+	text-align: center;
+}
+
+.feature img{
+	float: left;
+	padding: 10px 10px 12px 0px;
+}
+
+/************** .main-center styles *****************/
+
+.main-center{
+	width:45opx;
+	clear: both;
+	margin-left: 20px;
+	padding: 10px 0px 10px 60px;
+	font-size: 90%;
+	line-height: 1.2em;
+}
+
+.main-center img{
+	float: center;
+	padding: 10px 0px 4px 0px;
+}
+
+/************** .main-left styles *****************/
+
+.main-left{
+	clear: both;
+	margin: 10px;
+	padding: 10px 0px 10px 14px;
+	font-size: 96%;
+}
+.main-left img{
+	float: left;
+	margin: 2px 10px 4px 0;
+	padding: 0;
+}
+
+
+
+/************** .main-right styles *****************/
+
+.main-right{
+	clear: both;
+	padding: 6px 2px 2px 20px;
+	font-size: 96%;
+	list-style-image:url(../img/tri_blue.gif);
+}
+
+.main-right p{
+  margin-top:0.8em;
+}
+.main-right img{
+	float: right;
+	margin: 2px 0px 2px 5px;
+	padding: 0;
+	border:1px #CCC solid;
+}
+
+.main-right-pno{
+	clear: both;
+	padding: 6px 2px 2px 20px;
+	font-size: 96%;
+	list-style-image:url(../img/tri_blue.gif);
+}
+
+.main-right-pno img{
+	float: right;
+	margin: 2px 0px 4px 10px;
+	padding: 0;
+	border: none;
+}
+
+.main-right a{
+    color: #03F;
+    color: #03F;
+	text-decoration: none;
+}
+
+.main-right a:link {
+	color: #002aff;
+    color:#30F
+  text-decoration: none;
+}
+
+.main-right a:visited {
+	color: #333366;
+	text-decoration: none;
+}
+
+.main-right a:hover {
+	color: #ff6600;
+  text-decoration: none;
+}
+.main-right a:active {
+	color: #cc0044;
+ 	text-decoration: none;
+}
+
+
+
+/************** .main-right-p styles *****************/
+
+.main-right-p{
+	clear: both;
+	padding: 10px 0px 10px 14px;
+	font-size: 96%;
+}
+
+.main-right-p img{
+	float: right;
+	padding: 0px 0px 0px 10px;
+}
+
+/************** .main-c styles *****************/
+
+.main-c{
+	clear: both;
+	margin-left: 20px;
+	padding: 10px 0px 0px 0px;
+	font-size: 96%;
+}
+
+.main-c img{
+	float: center;
+	padding: 0px;
+}
+/************** .main-l styles *****************/
+
+.main-l{
+	clear: both;
+	margin-left: 25px;
+	margin-right: 35px;
+	padding: 10px 0px 0px 20px;
+	font-size: 96%;
+}
+
+.main-l img{
+	float: left;
+	padding: 4px 20px 10px 0px;
+}
+
+/************** .main-r styles *****************/
+
+.main-r{
+	clear: both;
+	margin-left: 25px;
+	margin-right: 35px;
+	padding: 30px 0px 0px 14px;
+	font-size: 96%;
+}
+
+.main-r img{
+	float: right;
+	padding: 4px 0px 10px 14px;
+}
+
+/************** .line styles *****************/
+.line{
+	margin: 1px 0px 11px 0px;
+	border-top: 1px solid #ccc;
+}
+ 
+/************** .list styles *****************/
+
+.list-1{
+list-style-image:url(../img/tri_green.gif);
+}
+
+.list-2{
+list-style-image:url(../img/tri_purple.gif);
+}
+
+.list-3{
+list-style-image:url(../img/tri_orange.gif);
+}
+
+
+
+/************** .story styles *****************/
+
+.story{
+	clear: both;
+	padding: 10px 0px 10px 14px;
+	font-size: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.story img{
+	float: right;
+	padding: 2px 0px 10px 10px;
+}
+
+
+
+.story p{
+	padding: 0px 0px 10px 0px;
+}
+
+/************** .caption styles *****************/
+
+.caption{
+	padding: 2px 0px 8px 2px;
+	font-size: 90%;
+	color: #369;
+    line-height:1.2em;
+}
+
+/************** .caption-1 styles *****************/
+
+.caption-1{
+	padding: 0px 10px 10px -px;
+	font-size: 90%;
+	font-family:"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+	color: #369;
+}
+
+/************** .caption-2 styles *****************/
+
+.caption-2{
+	padding: 2px 2px 8px 410px;
+	font-size: 90%;
+	font-family:"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+	color: #999;
+}
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	clear: both;
+	border-top: 1px solid #ccc;
+	font-size: 90%;
+	color: #888;
+	padding: 10px 10px 10px 10px;
+	width: 750px;
+}
+
+#siteInfo img{
+	padding: 4px 4px 4px 10px;
+	vertical-align: middle;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 90%;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 10dpx;
+	margin: 0;
+	border-bottom: 1px solid #cccccc;
+	font-size: 100%;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a {
+	display: block;
+	border-top: 1px solid #cccccc;
+	padding: 1px 0px 1px 10px;
+  font-size: small;
+}
+
+#sectionLinks a:hover{
+	background-color: #dddddd;
+}
+
+
+/*********** .relatedLinks styles ***********/
+
+.relatedLinks{
+	position: relative;
+	padding: 6px 0px 10px 0px;
+	font-size: 94%;
+	text-align:center;
+}
+
+.relatedLinks h3{
+	padding: 10px 0px 2px 0px;
+}
+
+.relatedLinks a:link,
+.relatedLinks a:visited {
+	display: block; 
+}
+
+.relatedLinks img{
+	float: center;
+	padding: 20px 0px 5px 0px;
+}
+
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 30px 0px 10px;
+}
+
+#advert img{
+	display: block;
+}
+
+/************** #table styles **************/
+
+.table{
+     margin-bottom: 20px;
+     width: 500px;
+}
+th, td{
+     padding:3px;
+}
+.design1{
+     border-collapse: collapse;
+	 border-color:#CCCCCC;
+}
+
+/************** #square styles **************/
+#square{
+ margin: 20px 20px 20px 10px;
+ width: 480px;
+ height: 300px;
+ background:#fcc;
+ padding: 0.5em;
+ }
+ 
+.contents {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", Hiragino Kaku Gothic Pro, "OsakaÅ]ìôïù";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 20px;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #000;
+}
+
+.contents a:link {
+	color: #0000ff;
+  text-decoration:underline;
+}
+.contents a:visited {
+	color: #4433ff;
+}
+.contents a:hover {
+	color: #000;
+}
+.contents a:active {
+	color: #000;
+}
+
+.text-main  {
+	font-family: "ÇlÇr ÉSÉVÉbÉN", Hiragino Kaku Gothic Pro, "OsakaÅ]ìôïù";
+	font-size: 12px;
+	font-style: normal;
+	line-height: 150%;
+	font-weight: normal;
+	font-variant: normal;
+	color: #000;
+}
+
+.text-title  { 
+	font-family: "ÇlÇr ÉSÉVÉbÉN", Hiragino Kaku Gothic Pro, "OsakaÅ]ìôïù";
+	font-size: 14px;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #0000CC;
+}
+.text-caption { 
+	font-family: "ÇlÇr ÉSÉVÉbÉN", Hiragino Kaku Gothic Pro, "OsakaÅ]ìôïù";
+	font-size: 10px;
+	font-style: normal;
+	line-height: 160%;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: capitalize;
+	color: #333;
+}
+
+.facebox{
+   line-height: 2em;
+   height:82px;
+   width:560px;
+   border-bottom:#99aecc dashed 1px;
+   text-align:left; 
+ }
+   
+.facebox img{
+	float: left;
+    padding: 0px 20px 0px 0px;   
+}
+   
+.class{
+ font-family: Arial,sans-serif, Hiragino Kaku Gothic Pro,"ÇlÇr ÇoÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ color: #007399;
+ margin: 6px 0 0 2px;
+ padding: 0;
+ line-height: 1.3em;
+}
+
+/************** #table styles **************/
+
+.table{
+     margin-bottom: 20px;
+     width: 560px;
+}
+th, td{
+     padding:10px;
+}
+.design1{
+     border-collapse: collapse;
+	 border-color:#CCCCCC;
+	 margin: 5px 0 15px 0;
+}
+
+.titleBar-ore{
+	float: left;
+    width: 595px;
+	height:35px;
+	background-color:#f90;	
+}
+
+/************** .intro styles ***************/
+
+.intro{
+	padding: 20px 20px 0px 20px;
+	font-size: 100%;
+}
+
+.feature img{
+	float: left;
+	padding: 20px 0px 20px 10px;
+}
+
+.caption-1{
+	text-indent: 0;
+
+}
+
+ /* íËã`ÉäÉXÉgÇÃÉXÉ^ÉCÉãÅ@*/
+
+dl.name{
+  float:left;
+  width: auto;
+  height:auto;
+  margin:2px 0 0 0;
+  padding: 2px 1px 2px 0;
+  color:#333;
+  font-size:medium;
+}
+
+dl.name dt{
+  float:left;
+  clear:both;
+  width:4em;
+  margin-right:0;
+  margin-left:0;
+  margin-bottom: 1px;
+  padding: 0 4px 0 5px;
+  font-weight:100;
+  color:#3344ff;
+  color:#006aff;
+  text-align:right;
+  border-bottom:#a8c0f0 dotted 1px;
+  font-weight:bold;
+}
+
+dl.name dd{
+  float:left;
+  width:26em;
+  height:auto;
+  margin-right:0;
+  margin-bottom: 1px;
+  margin-left:0.5em;
+ padding: 0 0 0 4px;
+ border-bottom:#a8c0f0 dotted 1px;
+}
+
+/* íËã`ÉäÉXÉgÇÃÉXÉ^ÉCÉã-2w310Å@*/
+
+dl.name-2{
+  float:left;
+  width: 314px;
+  height:auto;
+  margin:2px 0 0 0;
+  padding: 2px 1px 2px 0;
+  color:#333;
+  font-size:medium;
+}
+
+dl.name-2 dt{
+  float:left;
+  clear:both;
+  width:4em;
+  margin-right:0;
+  margin-left:0;
+  margin-bottom: 1px;
+  padding: 0 4px 0 5px;
+  font-weight:100;
+  color:#3344ff;
+   color:#006aff;
+  text-align:right;
+  border-bottom:#a8c0f0 dotted 1px;
+  font-weight:bold;
+}
+
+dl.name-2 dd{
+  float:left;
+  width:17em;
+  height:auto;
+  margin-right:0;
+  margin-bottom: 1px;
+  margin-left:0.5em;
+ padding: 0 0 0 4px;
+ border-bottom:#a8c0f0 dotted 1px;
+}
+
+ /* íËã`ÉäÉXÉgÇÃÉXÉ^ÉCÉã~2Å@*/
+dl.list-2{
+  float:left;
+  width:auto;
+  height:auto;
+  margin:0 0 5px 10px;
+  padding: 0 2px 10px 0;
+  color:#333;
+  font-size:medium;
+}
+
+dl.list-2 dt{
+  float:left;
+  clear:both;
+  width:6em;
+  margin-right:0;
+  margin-left: 0;
+  text-align:right;
+}
+
+dl.list-2 dd{
+  float:left;
+  width:39em;
+  height:1.5em;
+  height:auto;
+  margin-left:0.5em;
+  margin-bottom: 10px;
+}

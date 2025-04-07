@@ -1,0 +1,625 @@
+/***********************************************/
+/* 3col_leftNav.css                             */
+/* Use with template 3col_leftNav.html          */
+/***********************************************/
+
+/***********************************************/
+/* HTML tag styles                             */
+/***********************************************/ 
+
+body{
+	color: #000;
+	line-height: 140%;	
+	margin: 5px;
+	margin: 0 0 0 10px;
+	padding: 3px 0px 5px 0px;
+	background-image: url(../img/back_all.gif);
+	font-family:Verdana,"ƒƒCƒŠƒI","Hiragino Kaku Gothic Pro W3","ƒqƒ‰ƒMƒmŠpƒS Pro W3",Osaka,"MS P Gothc w3","Ms P ƒSƒVƒbƒN",sans-serif;
+	font-family:Verdana,"ƒƒCƒŠƒI","MS P Gothc w3","Ms P ƒSƒVƒbƒN",sans-serif;
+	text-align: left; 
+    overflow-y: scloll;
+    }
+    
+a{
+    color: #006699;
+	text-decoration: none;
+}
+
+a:link {
+	color: #0033cc;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #333366;
+	text-decoration: none;
+}
+
+a:hover {
+    color:#cc0044;
+  text-decoration: none;
+}
+a:active {
+  color: #cc0044;
+ 	text-decoration: none;
+}
+
+
+
+h1{
+ font-family: sans-serif,"Hiragino Kaku Gothic Pro w3","ƒqƒ‰ƒMƒmŠpƒS Pro W3","‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ color: #fff;
+ margin: 4px;
+ padding: 4px;
+}
+
+h2{
+ font-family: sans-serif,"Hiragino Kaku Gothic Pro w3","ƒqƒ‰ƒMƒmŠpƒS Pro W3","‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ color: #00c;
+ margin: 0px;
+ padding: 6px 0px 5px 9px;
+ font-weight:bold;
+ background-color:#cdf;
+}
+
+h3{
+ font-family: sans-serif, "Hiragino Kaku Gothic Pro w3","ƒqƒ‰ƒMƒmŠpƒS Pro W3","‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ color: #610;
+ margin: 4px;
+ padding: 2px 0px 4px 0px;
+}
+
+
+h4{
+ font-family: Arial,sans-serif "‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ font-weight:100;
+ color: #991900;
+ margin: 2px;
+ padding: 11px 13px 11px 13px;
+ background-color:#fc9;
+}
+
+h5{
+ font-family: Arial,sans-serif."‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ color: #399;
+ margin: 8px;
+ padding: 6px 0px 0px 5px;
+}
+
+h6{
+ font-family: Arial,sans-serif."‚l‚r ‚oƒSƒVƒbƒN", "Osaka]“™•";
+ font-size: 100%;
+ color: #93c;
+ margin: 8px;
+ padding: 6px 0px 0px 5px;
+}
+
+
+h5 span{
+background-color:#CCFFCC;
+padding: 3px;
+}
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#masthead{
+	padding: 6px 0px 0px 0px;
+	width: 750px;
+}
+
+#navBar{
+	float: left;
+	width: 170px;
+	margin: 0px;
+	padding: 0px;
+	background-color: #eeeeee;
+	border-right: 1px solid #cccccc;
+	border-left: 1px solid #cccccc;
+	border-bottom: 1px solid #cccccc;
+    font-size:12px;
+}
+
+#content{
+	float: left;
+    width: 595px;
+}
+
+#titleBar-lightgreen{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#6c0;	
+}
+
+#titleBar-blue{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#3359cc;	
+}
+
+#titleBar-tea{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#693;	
+}
+
+#titleBar-sky{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#69f;	
+}
+
+#titleBar-sche{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#3cc;	
+}
+
+#titleBar-purple{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#639;	
+}
+
+#titleBar-orange{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#f73;	
+}
+
+#titleBar-member{
+	float: left;
+    width: 595px;
+	height: 33px;
+	background-image:url(../img/title-member.jpg);	
+}
+
+#titleBar-rose{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#cc3359;	
+}
+
+#titleBar-mossgreen{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#cc3;	
+}
+
+#titleBar-bluegray{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#3380cc;	
+}
+
+#titleBar-map{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#cc5933;	
+}
+
+
+#titleBar-sunflower{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#ffbf00;	
+}
+
+#titleBar-green{
+	float: left;
+    width: 595px;
+	height:33px;
+	background-color:#493;	
+}
+
+#frame{
+    width: 787px;
+    height:auto;
+}
+
+	
+
+/***********************************************/
+/* Components                                  */
+/***********************************************/
+
+#siteName{
+	margin: 0;
+	padding: 0 0 0 10px;
+}
+
+
+/************* #globalNav styles **************/
+
+#globalNav{
+padding: 0px 0px 5px 2px;
+color: #999;
+white-space:nowrap;
+font-size: 12px;
+}
+
+#globalNav img{
+ display: block;
+}
+
+#globalNav a {
+	font-size: 100%;
+	padding: 0 4px 0 4px;
+}
+
+/*************** #pageName styles **************/
+
+#pageName{
+	margin: 0px;
+	padding: 0px 0px 0px 10px;
+}
+
+/************* #breadCrumb styles *************/
+
+#breadCrumb{
+    width: 767px;
+	padding: 2px 0px 0px 0px;
+	height: 10px;
+	background-color:#cccccc
+}
+
+/************** .map styles ***************/
+
+.map{
+	padding: 25px 0px 15px 50px;
+	font-size: 100%;
+}
+
+/************** .intro styles ***************/
+
+.intro{
+	padding: 20px 10px 20px 30px;
+	font-size: 100%;
+}
+
+.feature img{
+	float: left;
+	padding: 20px 0px 20px 10px;
+}
+
+
+/************** .feature styles ***************/
+
+.feature{
+	padding: 20px 0px 0px 12px;
+	font-size: 100%;
+}
+
+.feature h3{
+	padding: 30px 0px 5px 0px;
+	text-align: center;
+}
+
+.feature img{
+	float: left;
+	padding: 10px 10px 12px 0px;
+}
+
+
+
+/************** .main-center styles *****************/
+
+.main-center{
+	clear: both;
+	margin-left: 20;
+	padding: 10px 0px 10px 70px;
+	font-size: 96%;
+}
+
+.main-center img{
+	float: center;
+	padding: 10px 0px 4px 20px;
+}
+
+/************** .main-left styles *****************/
+
+.main-left{
+	clear: both;
+	margin: 10px;
+	padding: 10px 0px 10px 14px;
+	font-size: 96%;
+}
+
+.main-left img{
+	float: left;
+	padding: 0px 10px 10px 14px;
+}
+
+/************** .main-right styles *****************/
+
+.main-right{
+	clear: both;
+	padding: 10px 2px 10px 14px;
+	font-size: 96%;
+	list-style-image:url(../img/tri_blue.gif);
+}
+
+.main-right img{
+	float: right;
+	padding: 0px 0px 0px 10px;
+}
+
+/************** .main-right-p styles *****************/
+
+.main-right-p{
+	clear: both;
+	padding: 10px 0px 10px 14px;
+	font-size: 96%;
+}
+
+.main-right-p img{
+	float: right;
+	padding: 0px 0px 0px 10px;
+}
+
+/************** .main-c styles *****************/
+
+.main-c{
+	clear: both;
+	margin-left: 20px;
+	padding: 10px 0px 0px 0px;
+	font-size: 96%;
+}
+
+.main-c img{
+	float: center;
+	padding: 0px;
+}
+/************** .main-l styles *****************/
+
+.main-l{
+	clear: both;
+	margin-left: 25px;
+	margin-right: 35px;
+	padding: 10px 0px 0px 20px;
+	font-size: 96%;
+}
+
+.main-l img{
+	float: left;
+	padding: 4px 20px 10px 0px;
+}
+
+/************** .main-r styles *****************/
+
+.main-r{
+	clear: both;
+	margin-left: 25px;
+	margin-right: 35px;
+	padding: 30px 0px 0px 14px;
+	font-size: 96%;
+}
+
+.main-r img{
+	float: right;
+	padding: 4px 0px 10px 14px;
+}
+
+/************** .lone styles *****************/
+.line{
+	margin: 4px;
+	padding: 4px;
+	border-top: 1px solid #ccc;
+}
+ 
+
+/************** .story styles *****************/
+
+.story{
+	clear: both;
+	padding: 10px 0px 10px 14px;
+	font-size: 100%;
+	border-top: 1px solid #ccc;
+}
+
+.story img{
+	float: right;
+	padding: 2px 0px 10px 10px;
+}
+
+
+
+.story p{
+	padding: 0px 0px 10px 0px;
+}
+
+/************** .caption styles *****************/
+
+.caption{
+	padding: 2px 0px 8px 0px;
+	font-size: 90%;
+	font-family:"‚l‚r ‚oƒSƒVƒbƒN", Osaka;
+	color: #999;
+}
+
+/************* #siteInfo styles ***************/
+
+#siteInfo{
+	clear: both;
+	border-top: 1px solid #ccc;
+	font-size: 90%;
+	color: #888;
+	padding: 10px 10px 10px 10px;
+	width: 746px;
+}
+
+#siteInfo img{
+	padding: 4px 4px 4px 10px;
+	vertical-align: middle;
+}
+
+
+/************* #search styles ***************/
+
+#search{
+	padding: 5px 0px 5px 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 90%;
+}
+
+#search form{
+ margin: 0px;
+ padding: 0px;
+}
+
+#search label{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+/*********** #navBar link styles ***********/
+
+#navBar ul a:link, #navBar ul a:visited {display: block;}
+#navBar ul {list-style: none; margin: 0; padding: 0;}
+
+/* hack to fix IE/Win's broken rendering of block-level anchors in lists */
+#navBar li {border-bottom: 1px solid #EEE;}
+
+/* fix for browsers that don't need the hack */
+html>body #navBar li {border-bottom: none;}
+
+
+/*********** #sectionLinks styles ***********/
+
+#sectionLinks{
+	position: relative;
+	margin: 10dpx;
+	border-bottom: 1px solid #cccccc;
+	font-size: 100%;
+}
+
+#sectionLinks h3{
+	padding: 10px 0px 2px 10px;
+}
+
+#sectionLinks a {
+	display: block;
+	border-top: 1px solid #cccccc;
+	padding: 4px 0px 1px 10px;
+}
+
+#sectionLinks a:hover{
+	background-color: #dddddd;
+}
+
+
+/*********** .relatedLinks styles ***********/
+
+.relatedLinks{
+	position: relative;
+	padding: 6px 0px 10px 0px;
+	font-size: 94%;
+	text-align:center;
+}
+
+.relatedLinks h3{
+	padding: 10px 0px 2px 0px;
+}
+
+.relatedLinks a:link,
+.relatedLinks a:visited {
+	display: block; 
+}
+
+.relatedLinks img{
+	float: center;
+	padding: 20px 0px 5px 0px;
+}
+
+
+/************** #advert styles **************/
+
+#advert{
+	padding: 30px 0px 10px;
+}
+
+#advert img{
+	display: block;
+}
+
+/************** #table styles **************/
+
+.table{
+     margin-bottom: 20px;
+     width: 550px;
+}
+th, td{
+     padding:10px;
+}
+.design1{
+     border-collapse: collapse;
+	 border-color:#CCCCCC;
+}
+
+/************** #square styles **************/
+#square{
+ margin: 20px 20px 20px 10px;
+ width: 480px;
+ height: 300px
+ background:#fcc;
+ padding: 0.5em;
+ }
+ 
+ #globalNav{
+margin:0;
+padding: 0px 0px 3px 2px;
+color: #999;
+white-space:nowrap;
+font-size: 12px;
+width: 770px;
+}
+
+#globalNav img{
+ display: block;
+ margin-bottom: 2px;
+}
+
+#globalNav a {
+	font-size: 100%;
+	padding: 2px 5px 0 5px;
+	margin: 0;
+}
