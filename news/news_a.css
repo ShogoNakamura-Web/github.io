@@ -1,0 +1,185 @@
+body{
+	font-family: Arial,sans-serif,"ÇlÇr ÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+	color: #666;
+	line-height: 150%;	
+	margin: 10px 10px;
+	padding: 0px;
+	width: 520px;
+	
+}
+
+a{
+	color: #006699;
+	text-decoration: none;
+}
+
+a:link {
+	color: #0033CC;
+	text-decoration: none;
+}
+a:visited {
+	color: #3366ff;
+	text-decoration: none;
+}
+a:hover {
+	color: #FF6600;
+	text-decoration: underline;
+}
+a:active {
+	color: #FF6600;
+	text-decoration: none;
+}
+
+
+h1{
+ font-family: Verdana,Arial,sans-serif,"ÇlÇr ÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 125%;
+ color: #00c;
+ margin: 0px;
+ padding: 5px;
+ font-weight: bold;
+}
+
+h2{
+ font-family: Arial,sans-serif,"ÇlÇr ÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 120%;
+ color: #993300;
+ margin: 0px;
+ padding: 4px 4px;
+ background-color:#FFCC66;
+}
+
+h3{
+ font-family: Arial,sans-serif "ÇlÇr ÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 105%;
+ color: #339900;
+ margin: 6px;
+ padding:6px;
+}
+
+h4{
+ font-family: Arial,sans-serif."ÇlÇr ÉSÉVÉbÉN", "OsakaÅ]ìôïù";
+ font-size: 100%;
+ font-weight: normal;
+ color: #663333;
+ margin: 6px;
+ padding: 0px;
+}
+
+
+
+ul{
+ list-style-type: square;
+}
+
+ul ul{
+ list-style-type: disc;
+}
+
+ul ul ul{
+ list-style-type: none;
+}
+
+label{
+ font-family: Arial,sans-serif;
+ font-size: 100%;
+ font-weight: bold;
+ color: #334d55;
+}
+
+
+/***********************************************/
+/* Layout Divs                                 */
+/***********************************************/
+
+#title{
+	padding: 10px 0px 0px 5px;
+	width: 520px;
+}
+
+
+#content{
+	float: left;
+    width: 520px;
+	padding:10px 10px 4px 10px;
+}
+
+#second{
+	float: left;
+    width: 520px;
+	padding:0px 10px;
+}
+
+#last{
+	float: left;
+    width: 520px;
+	padding:4px 10px 10px 10px;
+	border-bottom: 1px solid #cccccc;
+}
+
+
+#titleBar{
+	float: left;
+    width: 500px;
+	height:30px;
+	background-color:#6699ff;
+	padding:10px;
+	
+}
+
+#p-content{
+	float: left;
+    width: 500px;
+	padding:10px 10px 4px 10px;
+}
+
+
+/************** .summary styles ***************/
+
+.summary{
+	padding: 20px 0px 0px 0px;
+	font-size: 100%;
+}
+
+
+.summary img{
+	float: left;
+	padding: 0px 10px 0px 0px;
+}
+
+
+/************** .main styles *****************/
+
+.main{
+	clear: both;
+	padding: 20px 0px 10px 0px;
+	font-size: 100%;
+	border-bottom: 1px solid #cccccc;
+}
+
+.main img{
+	float: right;
+	padding: 8px 0px 8px 10px;
+}
+
+/************** .rightphoto styles *****************/
+
+.rightphoto{
+	clear: both;
+	padding: 20px 0px 10px 0px;
+	font-size: 100%;
+}
+
+.rightphoto img{
+	float: right;
+	padding: 8px 0px 8px 10px;
+}
+
+/************** .caption styles *****************/
+
+.caption{
+	float:inherit;
+	font-size:100%;
+	font color:#999999;
+	pdding: 0px 30px;
+}
